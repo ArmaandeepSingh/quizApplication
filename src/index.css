@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0 20px 20px;
+  font-size: 20px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+
+button.active {
+  background: white;
+  color: black;
+  border: 3px solid black;
 }
